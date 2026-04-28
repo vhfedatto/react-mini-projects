@@ -1,0 +1,17 @@
+1. CSS Global --> index.css --> aplicado em todo o site. Estilizar o body, definir o fundo da página, organizar o layout geral.
+
+2. CSS por componente --> Carro.module.css --> Estiliza apenas Carro, como: borda, padding, sombra, tipografia.
+
+3. Inline Style --> utilizado em style={{ backgroundColor: cor}} --> em Carro.jsx. --> a cor do fundo vem de uma prop dinâmica e não é fixa no CSS.
+
+4. Lógica condicional em "const ehCaro = preco > 100000". Define se o carro é caro ou barato.
+
+5. Classes dinâmicas aplicadas em 
+
+    const classePreco = ehCaro ? styles.carroCaro : styles.carroBarato
+    
+    className={`${styles.carroCard} ${classePreco}`}
+    
+Todo carro recebe a classe base (carroCard), dependendo do preço, ele recebe carroCaro (borda verde) ou carroBarato (borda vermelha). 
+
+6. Qual a vantagem do uso de CSS Modules --> Isolamento de estilos (cada classe é transformada em um nome único pelo react), evitando conflito entre classes e sobrescrita acidental de estilos, além de organizar o código, manutenção mais fácil e escalar o projeto.

@@ -1,0 +1,12 @@
+Aluno: Victor Hugo Fedatto Vasconcelos | 2024111880002
+Ciências da Computação | P4 | 12/05/2026 | Front-end Avançado.
+---
+
+1. b) compartilhar estados globais entre componentes. - serve para evitar o "telefone sem fio" de passar props de componente em componente. Em resumo, é para compartilhar dados entre componentes sem ficar passando props manualmente.
+
+2. c) I e II. Na III, o useState pode ser usado em formulários, contadores, menus, modais, filtros, carrinhos, temas etc.
+Ele guarda estado e faz a tela reagir quando esse estado muda.
+
+3. Permite criar uma referência direta para um elemento HTML dentro do react. Assim, ele seria como um "cartão VIP" para tocar diretamente em um elemento da página. Usado quando precisa acessar um elemento do DOM sem depender do estado e não causa nova renderização quando muda.
+
+4, 5 e 6. HookSuite
